@@ -32,7 +32,7 @@
         <div class="site-name"><span><strong>SMART</strong></span>STORE</div>
       </a>
       <nav role="navigation" class="navigation-menu-3 w-nav-menu">
-        <a href="#" class="navigation-link-3 w-nav-link">Home</a>
+        <a href="/index.html" class="navigation-link-3 w-nav-link">Home</a>
         <a href="#" class="navigation-link-3 w-nav-link">Profile</a>
         <a href="#" class="navigation-link-3 w-nav-link">Settings</a>
       </nav>
@@ -201,7 +201,7 @@
 
             // When a card is clicked, navigate to the item page by passing the account id
             card.addEventListener('click', function () {
-              document.location.href = "samplevideo.html?video_id=" + data[i].video_id;
+              document.location.href = "/samplevideo.html?video_id=" + data[i].video_id;
             });
             const date = card.getElementsByTagName('P')[0];
             date.innerHTML = data[i].upload_date;
