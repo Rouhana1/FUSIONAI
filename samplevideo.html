@@ -1,0 +1,514 @@
+<!DOCTYPE html><!--  Last Published: Sat Jul 06 2024 22:44:28 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="668428c48efec97e7592729b" data-wf-site="668428c48efec97e75927228">
+
+<head>
+  <meta charset="utf-8">
+  <title>SampleVideo</title>
+  <meta content="SampleVideo" property="og:title">
+  <meta content="SampleVideo" property="twitter:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/web.css" rel="stylesheet" type="text/css">
+  <link href="css/fusionai-fa3dc214b7caed48-382811b7fafe2.web.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script
+    type="text/javascript">WebFont.load({ google: { families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic", "Droid Sans:400,700", "Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic", "Varela:400", "Roboto:300,regular,500"] } });</script>
+  <script
+    type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
+  <link href="" rel="shortcut icon" type="image/x-icon">
+  <link href="" rel="apple-touch-icon">
+</head>
+
+<body class="body-2">
+  <div class="html-embed w-embed w-script">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </div>
+  <div class="custom-styles w-embed">
+    <style>
+      html {
+        font-size: calc(0.625rem + 0.41666666666666663vw);
+      }
+
+      @media screen and (max-width:1920px) {
+        html {
+          font-size: calc(0.625rem + 0.41666666666666674vw);
+        }
+      }
+
+      @media screen and (max-width:1440px) {
+        html {
+          font-size: calc(0.8126951092611863rem + 0.20811654526534862vw);
+        }
+      }
+
+      @media screen and (max-width:479px) {
+        html {
+          font-size: calc(0.7494769874476988rem + 0.8368200836820083vw);
+        }
+      }
+
+      * {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+
+      :root {
+        --bg-color: rgb(20, 20, 20);
+        --card-color: rgb(23, 23, 23);
+      }
+
+      #cards:hover>.card::after {
+        opacity: 1;
+      }
+
+      .card:hover::before {
+        opacity: 1;
+      }
+
+      .card::before,
+      .card::after {
+        border-radius: inherit;
+        content: "";
+        height: 100%;
+        left: 0px;
+        opacity: 0;
+        position: absolute;
+        top: 0px;
+        transition: opacity 500ms;
+        width: 100%;
+      }
+
+      .card::before {
+        background: radial-gradient(800px circle at var(--mouse-x) var(--mouse-y), rgba(255, 255, 255, 0.06), transparent 40%);
+        z-index: 3;
+      }
+
+      .card::after {
+        background: radial-gradient(600px circle at var(--mouse-x) var(--mouse-y), rgba(255, 255, 255, 0.4), transparent 40%);
+        z-index: 1;
+      }
+
+      .card>.card-content {
+        background-color: var(--card-color);
+        border-radius: inherit;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        inset: 1px;
+        padding: 10px;
+        position: absolute;
+        z-index: 2;
+      }
+    </style>
+  </div>
+  <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease"
+    role="banner" class="navigation-bar-3 w-nav">
+    <div class="w-container">
+      <a href="#" class="w-nav-brand">
+        <div class="site-name"><span><strong>SMART</strong></span>STORE</div>
+      </a>
+      <nav role="navigation" class="navigation-menu-3 w-nav-menu">
+        <a href="customerdashboard.html" class="navigation-link-3 w-nav-link">Home</a>
+        <a href="#" class="navigation-link-3 w-nav-link">Profile</a>
+        <a href="#" class="navigation-link-3 w-nav-link">Settings</a>
+      </nav>
+      <div class="menu-button w-nav-button">
+        <div class="w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <div class="content-wrapper">
+    <div class="w-container">
+      <div class="w-row">
+        <div class="w-hidden-small w-hidden-tiny w-col w-col-3">
+          <div class="white-wrapper-3">
+            <p class="site-description-2">Gissah</p>
+            <div class="grey-rule"></div>
+            <h2 class="small-heading-2">Location: Festival City - Dubai<br><br>Total recordings: 12<br><br>Plan:
+              Basic<br></h2>
+            <div class="grey-rule"></div>
+            <p class="built-with-webflow">smartStore</p>
+          </div>
+        </div>
+        <div class="content-column w-col w-col-9">
+          <div class="div-block-8">
+            <h1 id="videoheader" class="white-bg-heading"> Recording May 22, 2024</h1>
+          </div>
+          <div class="div-block-5">
+            <div class="hero">
+              <div id="cards" class="investor-grid">
+                <div id="samplestyle" data-w-id="3be9acf1-3526-354f-2fcf-7292bc77cb64" style="opacity:0"
+                  class="card hidden w-node-_3be9acf1-3526-354f-2fcf-7292bc77cb64-7592729b"> <img
+                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
+                    loading="lazy" alt="" class="image-15">
+                  <div class="card-content">
+                    <div class="content-wrapper-7">
+                      <h3 class="card-heading">Lorem ipsum</h3>
+                      <p class="paragraph-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut.<br></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="cards2" class="investor-grid-copy">
+                <div id="samplestyle2" class="circle-div hidden w-node-aa96ca98-2309-0c87-359b-70f159292ee7-7592729b">
+                  <h4 class="counterup">623</h4>
+                  <p class="title-capped">Customer-Product Interactions</p>
+                </div>
+              </div>
+              <div class="div-block-11">
+                <div class="video-container">
+                  <video id="video-player" controls>
+                    <source id="video-source" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+              <script>
+                document.addEventListener('DOMContentLoaded', function () {
+
+
+
+                });
+              </script>
+              <div class="div-block-12">
+                <div id="graphstyle" data-w-id="3bd0a9cc-fbdf-364f-a454-e6b6c38a0253" style="opacity:0"
+                  class="graph hidden w-node-_3bd0a9cc-fbdf-364f-a454-e6b6c38a0253-7592729b">
+                  <div class="chart w-embed w-script">
+                    <div><canvas id="bar"></canvas></div>
+                    <script>
+
+                      let gissahurl = new URL('http://localhost:3000/gissah');
+                      function getgraphdetails(videoId) {
+
+                        let request = new XMLHttpRequest();
+                        let url = xanoUrl.toString();
+                        request.open('GET', url, true);
+                        request.onload = function () {
+                          try {
+                            let responseData = JSON.parse(this.response);
+                            console.log('graph started');
+
+                            let stuff = responseData.find(video => video.video_id === videoId).results; //results data
+                            let stuff2 = responseData.find(video => video.video_id === videoId); //video info
+
+
+
+
+                            new Chart(document.getElementById("bar"), {
+                              type: "bar",
+                              data: {
+                                labels: Object.keys(stuff.CUSTOMER_COUNT),
+                                datasets: [{
+                                  label: "Customer Visits",
+                                  data: Object.values(stuff.CUSTOMER_COUNT),
+                                  borderWidth: 1
+                                }]
+                              }
+                            });
+                          } catch (error) {
+                            console.error('Error parsing JSON:', error);
+                          }
+                        };
+                        // Send the request to the API
+                        request.send();
+                      }
+
+                    </script>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar-on-mobile">
+            <div class="white-wrapper"><img src="images/photo-1443180236447-432ea00e6ead.jpg" alt=""
+                class="circle-profile">
+              <p class="site-description">Denali is a simple responsive blog template. Easily add new posts using the
+                Editor or change layout and design using the Designer.</p>
+              <div class="grey-rule"></div>
+              <h2 class="small-heading">Featured Posts:</h2>
+              <div class="feature-posts-list w-dyn-list">
+                <div role="list" class="w-dyn-items">
+                  <div role="listitem" class="w-dyn-item"></div>
+                </div>
+                <div class="w-dyn-empty">
+                  <p>No items found.</p>
+                </div>
+              </div>
+              <div class="grey-rule"></div>
+              <div class="social-link-group">
+                <a href="#" class="social-icon-link w-inline-block"><img
+                    src="https://uploads-ssl.webflow.com/664daf07feea8417009a8a33/664daf09feea8417009a8d60_social-03.svg"
+                    width="25" alt=""></a>
+                <a href="#" class="social-icon-link w-inline-block"><img
+                    src="https://uploads-ssl.webflow.com/664daf07feea8417009a8a33/664daf09feea8417009a8d6d_social-07.svg"
+                    width="25" alt=""></a>
+                <a href="#" class="social-icon-link w-inline-block"><img
+                    src="https://uploads-ssl.webflow.com/664daf07feea8417009a8a33/664daf09feea8417009a8d51_social-18.svg"
+                    width="25" alt=""></a>
+                <a href="#" class="social-icon-link w-inline-block"><img
+                    src="https://uploads-ssl.webflow.com/664daf07feea8417009a8a33/664daf09feea8417009a8cfc_social-09.svg"
+                    width="25" alt=""></a>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="global">
+    <div class="html w-embed"><svg class="goo-filter" viewbox="0 0 1 1">
+        <filter id="goo">
+          <fegaussianblur in="SourceGraphic" stddeviation="10" result="blur">
+            <fecolormatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 90 -20" result="goo">
+              <feblend in="SourceGraphic" in2="goo">
+              </feblend>
+            </fecolormatrix>
+          </fegaussianblur>
+        </filter>
+      </svg>
+      <style>
+        @media only screen and (min-width: 1440px) {
+          body {
+            font-size: 14px;
+          }
+        }
+
+        .card_background {
+          filter: url(#goo);
+        }
+
+        .is--content {
+          pointer-events: none;
+        }
+
+        .is--content * {
+          pointer-events: auto;
+        }
+      </style>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=668428c48efec97e75927228"
+    type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"></script>
+  <script src="js/web.js" type="text/javascript"></script><!--  mouseglow  -->
+  <script>
+    document.getElementById("cards").onmousemove = (e) => {
+      for (const card of document.getElementsByClassName("card")) {
+        const rect = card.getBoundingClientRect(),
+          x = e.clientX - rect.left,
+          y = e.clientY - rect.top;
+        card.style.setProperty("--mouse-x", `${x}px`);
+        card.style.setProperty("--mouse-y", `${y}px`);
+      }
+    };
+  </script>
+  <!--  Count Up Interaction  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js"></script>
+  <script>
+    jQuery(document).ready(function ($) {
+      $('.counterup').counterUp({
+        delay: 100, // the delay time in ms
+        time: 2000 // the speed time in ms
+      });
+    });
+  </script>
+  <script>
+    function getVideoIdFromUrl() {
+      const params = new URLSearchParams(window.location.search);
+      return params.get('video_id');
+    }
+    // API endpoint.
+    let xanoUrl = new URL('http://localhost:3000/gissah');
+
+    function getVideoDetails(videoId) {
+    
+      let request = new XMLHttpRequest();
+      
+      let url = xanoUrl.toString();
+      // GET request.
+      request.open('GET', url, true);
+      request.onload = function () {
+        try {
+          let responseData = JSON.parse(this.response);
+         
+          console.log('Received data:', responseData); // Log the data for debugging
+        
+          let data = responseData.find(video => video.video_id === videoId).results; //RESULTS DATA
+          let data2 = responseData.find(video => video.video_id === videoId); //VIDEO INFO 
+
+          console.log('Parsed data:', data);
+
+
+          if (request.status >= 200 && request.status < 400) {
+
+            //FETCH VIDEO
+            const videoSource = document.getElementById('video-source');
+            const videoUrl = data2.video_url;
+
+            fetch(videoUrl)
+              .then(response => {
+                if (response.ok) {
+                  videoSource.src = videoUrl;
+                  document.getElementById('video-player').load();
+                } else {
+                  console.error('Failed to fetch video');
+                }
+              })
+              .catch(error => {
+                console.error('Error fetching video:', error);
+              });
+
+
+            const VideoHeader = document.getElementById('videoheader');
+            VideoHeader.innerHTML = "Uploaded on " + data2.upload_date;
+
+
+            if (data2.entire_shop == true) {
+              const cardContainer = document.getElementById("cards");
+
+              // Loop through each index in the 'id' array.
+              for (let i = 0; i < data.ROI_ID.length; i++) {
+                let ROI_TITLE = "ROI " + [i + 1] //ROI COUNTER
+                const style = document.getElementById('samplestyle');
+                const card = style.cloneNode(true);
+                card.setAttribute('id', '');
+                card.style.display = 'block';
+
+                // When a card is clicked, navigate to the item page by passing the account id
+                card.addEventListener('click', function () {
+                  document.location.href = "/item?ROI_ID=" + data.ROI_ID[i];
+                });
+                const img = card.getElementsByTagName('IMG')[0]
+                img.src = `data:image/jpeg;base64,${data.ROI_SCREENSHOTS[i]}`;
+                const h3 = card.getElementsByTagName('h3')[0];
+                h3.innerHTML = ROI_TITLE + "<hr color = black>"
+
+                
+                const p = card.getElementsByTagName('P')[0];
+                p.innerHTML = "Customer visits: " + data.CUSTOMER_COUNT[i] + "<hr color = black>"
+                  + "Customer-product interactions: " + data.CUSTOMER_PRODUCT_INTERACTIONS[i]
+                  + "<hr color = black>" + "Staff visits: " + data.STAFF_COUNT[i]
+                  + "<hr color = black>" + "Staff-Customer Interactions: " + data.STAFF_CUSTOMER_INTERACTIONS[i];
+                // Place the card into the div "Cards-Container"
+                cardContainer.appendChild(card);
+                Webflow.destroy();
+                Webflow.ready();
+                Webflow.require('ix2').init();
+              }
+
+            } else {
+              if (!data.TOTAL_CUSTOMER_COUNT === undefined || !data.TOTAL_CUSTOMER_COUNT.length == 0) {
+                // IF NO DATA FOR customer count
+                let numberArray = [];
+
+                for (let i = 0; i < Object.values(data.CUSTOMER_COUNT).length; i++) {
+                  numberArray.push(parseInt(Object.values(data.CUSTOMER_COUNT)[i]));
+                }
+
+                addbubble("Customer Visits", numberArray.reduce(function (pv, cv) { return pv + cv; }, 0))
+
+              }
+
+              if (!data.CUSTOMER_PRODUCT_INTERACTIONS === undefined || !data.CUSTOMER_PRODUCT_INTERACTIONS.length == 0) {
+                // IF no DATA FOR customer product interactions
+                addbubble("Customer-Product Interactions", data.CUSTOMER_PRODUCT_INTERACTIONS)
+
+              }
+              if (!data.STAFF_CUSTOMER_INTERACTIONS === undefined || !data.STAFF_CUSTOMER_INTERACTIONS.length == 0) {
+                // IF no DATA FOR staff interactions
+                addbubble("Staff-Customer Interactions", data.STAFF_CUSTOMER_INTERACTIONS)
+
+              }
+              if (!data.CUSTOMER_COUNT === undefined || !Object.keys(data.CUSTOMER_COUNT).length == 0) {
+                // IF no DATA FOR customer count
+
+                const cardContainer = document.getElementById("cards2");
+                const graphe = document.getElementById('graphstyle');
+
+                graphe.style.display = 'flex';
+
+              } else {
+
+
+                const cardContainer = document.getElementById("cards2");
+                const graphe = document.getElementById('graphstyle');
+
+                graphe.style.display = 'none';
+              }
+
+              if (!data.AVG_INNTERACTION_TIME === undefined || !data.AVG_INNTERACTION_TIME.length == 0) {
+                // IF no DATA FOR avg interaction time
+                addbubble("Average Interaction time (minutes)", data.AVG_INNTERACTION_TIME)
+
+              }
+              if (!data.STAFF_COUNT === undefined || !data.STAFF_COUNT.length == 0) {
+                // IF no DATA FOR staff count
+
+                addbubble("Staff Count", data.STAFF_COUNT)
+
+              }
+              if (!data.LOYAL_CUSTOMERS === undefined || !data.LOYAL_CUSTOMERS.length == 0) {
+              // IF no DATA FOR loyal customers
+
+                addbubble("Loyal Customers", data.LOYAL_CUSTOMERS)
+
+              }
+
+
+              jQuery(document).ready(function ($) {
+                $('.counterup').counterUp({
+                  delay: 100, // the delay time in ms
+                  time: 2000 // the speed time in ms
+                });
+              });
+
+            }
+
+          }
+
+
+        } catch (error) {
+          console.error('Error parsing JSON:', error);
+        }
+      };
+
+      // Send the request to the API
+      request.send();
+    }
+    function addbubble(title, count) {
+      const cardContainer = document.getElementById("cards2");
+      const style = document.getElementById('samplestyle2');
+      const card = style.cloneNode(true);
+      card.style.display = 'flex';
+
+      const h4 = card.getElementsByTagName('h4')[0];
+      h4.innerHTML = count
+      const p = card.getElementsByTagName('P')[0];
+      p.innerHTML = title
+      cardContainer.appendChild(card);
+
+
+    }
+
+    // This fires all of the defined functions when the document is "ready" or loaded
+    (function () {
+      const videoId = getVideoIdFromUrl();
+      if (videoId) {
+        getVideoDetails(videoId);
+
+        getgraphdetails(videoId);
+      } else {
+        console.error('No video ID found in URL');
+      }
+    })();
+  </script>
+</body>
+
+</html>
