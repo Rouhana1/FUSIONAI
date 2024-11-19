@@ -1,0 +1,50 @@
+[
+    {
+      "video_id": "3",
+      "upload_date": "01/06/2024",
+      "video_length": "6:02:22",
+      "entire_shop": false,
+      "video_url":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "results": {
+        "TOTAL_CUSTOMER_COUNT": 
+          [691]
+        ,
+        "CUSTOMER_COUNT": {
+         
+           
+           "0-5": 33,
+          "5-10": 22,
+          "10-15": 5,
+          "15-20": 20,
+          "20-25": 2,
+          "25-30": 8,
+          "30-35": 16
+          
+          
+        },
+        "CUSTOMER_PRODUCT_INTERACTIONS": [
+          40
+        ],
+        "STAFF_COUNT": [
+          2
+        ],
+        "STAFF_CUSTOMER_INTERACTIONS": [
+          30
+        ],
+        "isActive": [
+          true
+        ],
+        "AVG_INNTERACTION_TIME":[
+          1.2
+          ],
+        "STAFF_COUNT":[
+          2
+        ],
+        "LOYAL_CUSTOMERS":[
+          
+          ]
+      }
+    }
+    
+  
+  ]
