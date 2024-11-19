@@ -4,7 +4,7 @@
       "upload_date": "01/06/2024",
       "video_length": "6:02:22",
       "entire_shop": false,
-      "video_url":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "video_url":"/FUSIONAI/videos/storefootage.mp4",
       "results": {
         "TOTAL_CUSTOMER_COUNT": 
           [691]
@@ -37,9 +37,7 @@
         "AVG_INNTERACTION_TIME":[
           1.2
           ],
-        "STAFF_COUNT":[
-          2
-        ],
+       
         "LOYAL_CUSTOMERS":[
           
           ]
